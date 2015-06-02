@@ -9,7 +9,7 @@ __Taller 2, Lenguajes de programación__
 * Después crearemos el archivo lex, este se divide en tres secciones, separadas por lineas que contienen los simbolos: "%%"
 
   * ```
-Sección de delaraciones
+  Sección de delaraciones
 %%
 Sección de reglas
 %%
@@ -21,4 +21,4 @@ Sección de código en C
 
     * En la **sección de código C** se encuentran las sentencias y funciones que serán copiadas en el archivo fuente generado. Estas sentencias contienen el código llamado por las reglas en la sección anterior.
 
-  * ![taller2.h](/lexTaller.png)
+  * ![taller2.l](/lexTaller.png)
