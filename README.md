@@ -6,19 +6,21 @@ __Taller 2, Lenguajes de programación__
 
   ![taller2.h](/headerTaller.png)
 
-* Después crearemos el archivo lex, este se divide en tres secciones, separadas por lineas que contienen los simbolos: "%%"
+* Después crearemos el archivo lex, este se divide en tres secciones, separadas por lineas que contienen los simbolos: %%
 
-  * ```
+  ```
   Sección de delaraciones
-%%
-Sección de reglas
-%%
-Sección de código en C
+  %%
+  Sección de reglas
+  %%
+  Sección de código en C
 ```
-    * En la **sección de declaraciones** se definen los macros y se importan los archivos de cabecera escritos en *C*. Este código en *C* debe ir entre los simbolos %{ %}.
 
-    * En la **sección de reglas** se asocian patrones a sentencias en *C*. Estos patrones son expresiones regulares. Cuando el *lexer* encuentra un texto en la entrada que es asociable a un patron dado, ejecuta el código en *C*. Esta es la sección más importante.
 
-    * En la **sección de código C** se encuentran las sentencias y funciones que serán copiadas en el archivo fuente generado. Estas sentencias contienen el código llamado por las reglas en la sección anterior.
+  * En la **sección de declaraciones** se definen los macros y se importan los archivos de cabecera escritos en *C*. Este código en *C* debe ir entre los simbolos %{ %}.
+
+  * En la **sección de reglas** se asocian patrones a sentencias en *C*. Estos patrones son expresiones regulares. Cuando el *lexer* encuentra un texto en la entrada que es asociable a un patron dado, ejecuta el código en *C*. Esta es la sección más importante.
+
+  * En la **sección de código C** se encuentran las sentencias y funciones que serán copiadas en el archivo fuente generado. Estas sentencias contienen el código llamado por las reglas en la sección anterior.
 
   * ![taller2.l](/lexTaller.png)
