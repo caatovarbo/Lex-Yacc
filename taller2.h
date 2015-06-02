@@ -1,0 +1,13 @@
+#define LETRA 1
+#define OPERADOR 2
+#define CONJUNCION 3
+#define DISYUNCION 4
+#define CONDICIONAL 5
+#define LITERAL 6
+#define ATOMO 7
+#define AGRUPACION 8
+#define VALOR 9
+#define SENTENCIA 10	
+#define COLON 11
+#define ASIGNACION 12
+#define BICONDICIONAL 13
